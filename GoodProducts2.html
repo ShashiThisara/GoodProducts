@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Us</title>
+        <link rel="icon" type="image/icon" href="Images/eating health.png">
+        <style>
+              header {
+                background-color: aliceblue;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+
+            .header-icon {
+                width: 80px;
+                height: 80px;
+                margin-left: auto;
+            }
+
+            h1 {
+                color: rgb(137, 103, 246);
+                font-size: 250%;
+            }
+
+            .button1 {
+                width: 150px;
+                height: 40px;
+                align-items: end;
+                background-color: rgb(154, 211, 241);
+                border-radius: 12px;
+                text-align: center;
+                font-size: 160%; 
+            }
+            
+            .button2 {
+                width: 150px;
+                height: 40px;
+                align-items: end;
+                background-color: rgb(154, 211, 241);
+                border-radius: 12px;
+                text-align: center;
+                font-size: 160%;    
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>About Us..</h1>
+            <img src="Images/eating health.png" alt="Health Eating" class="header-icon" style="float: right;">
+        </header>
+
+        <main>
+            <p style="font-size: 200%;">
+                Introdusing our latest products designed to make your life easier and more efficient.<br>We want to give you healthy products.It's our aim.
+                <img src="Images/eat healthy.gif" alt="healthy foods" style="float: right;" width="500px" height="380px"> 
+            </p><br><br>
+            <p style="font-size: 180%;"><b>
+                Eating healthy food fills your body with energy and nutrients. <br>
+                Imagine your cells smiling back at you and saying: <br>
+                                       "Thank You!"  </b> 
+            </p>
+            <br>
+            <br>
+            <button class="button1" onclick="toThePreviousPage()"><b>Back</b></button>
+            <button class="button2" onclick="toTheNextPage()"><b>Next</b></button>    
+        </main>
+
+        <footer>  </footer>
+
+        <script>
+            function toThePreviousPage() { 
+                window.location.href = 'GoodProducts.html';
+            }
+
+            function toTheNextPage() { 
+                window.location.href = 'GoodProducts3.html';
+            }
+        
+        </script>
+    
+    </body>
+</html>

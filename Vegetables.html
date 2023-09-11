@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vegetables</title>
+    <link rel="icon" type="image/icon" href="Images/eating health.png">
+    <style>
+        body {
+                background-image: url(Images/vegetables\ pc1.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+        }
+        
+        header {
+                background-color: rgba(168, 161, 105, 0.554);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+        }
+
+        .header-icon {
+                width: 80px;
+                height: 80px;
+                margin-left: auto;
+        }
+
+        h1 {
+            color: rgba(43, 34, 42, 0.653);
+            font-size: 250%;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        main img {
+            margin: 5px;
+        }
+
+        main img:hover {
+            transform: scale(2.2); 
+        }
+
+        .button-container {
+            display: inline;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 10px 0;
+        }
+
+        .button1 {
+            width: 150px;
+            height: 40px;
+            align-items: center;
+            background-color: rgba(182, 168, 168, 0.906);
+            border-radius: 12px;
+            text-align: center;
+            font-size: 160%;
+            margin: 5px 0;
+        }
+
+        .button2 {
+            width: 150px;
+            height: 40px;
+            align-items: center;
+            background-color: rgba(182, 168, 168, 0.906);
+            border-radius: 12px;
+            text-align: center;
+            font-size: 160%;
+            margin: 5px 0;    
+        }
+
+        .left-corner {
+            margin-right: auto;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+    <header>
+        <h1>Fresh Vegetables..</h1>
+        <img src="Images/eating health.png" alt="Health Eating" class="header-icon" style="float: right;">
+    </header>
+
+    <main>
+        <img src="Images/Vegetables/Ambarella.png" alt="Ambarella" width="120px" height="160px">
+        <img src="Images/Vegetables/Beetroot.png" alt="Beetroot" width="120px" height="160px">
+        <img src="Images/Vegetables/Big Onions.png" alt="Big Onions" width="120px" height="160px">
+        <img src="Images/Vegetables/Broccoli.png" alt="Broccoli" width="120px" height="160px">
+        <img src="Images/Vegetables/Butter Gourd.png" alt="Butter Gourd" width="120px" height="160px">
+        <img src="Images/Vegetables/Carrot.png" alt="Carrot" width="120px" height="160px">
+        <img src="Images/Vegetables/Cauliflower.png" alt="Cauliflower" width="120px" height="160px">
+        <img src="Images/Vegetables/Coconut.png" alt="Coconut" width="120px" height="160px">
+        <img src="Images/Vegetables/Garlic.png" alt="Garlic" width="120px" height="160px">
+        <img src="Images/Vegetables/Ginger.png" alt="Ginger" width="120px" height="160px">
+        <img src="Images/Vegetables/Green Cucumber.png" alt="Green Cucumber" width="120px" height="160px">
+        <img src="Images/Vegetables/Ladies Fingers.png" alt="Ladies Fingers" width="120px" height="160px">
+        <img src="Images/Vegetables/Leeks.png" alt="Leeks" width="120px" height="160px">
+        <img src="Images/Vegetables/Lime.png" alt="Lime" width="120px" height="160px">
+        <img src="Images/Vegetables/Pumpkin.png" alt="Pumpkin" width="120px" height="160px">
+        <img src="Images/Vegetables/Salad Leaves.png" alt="Salad Leaves" width="120px" height="160px">
+
+        <div class="button-container left-corner">
+            <button class="button1" onclick="toThePreviousPage()"><b>Back</b></button>
+            <button class="button2" onclick="toTheHomePage()"><b>Home</b></button>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script>
+        function toThePreviousPage() { 
+            window.location.href = 'GoodProducts3.html';
+        }
+
+        function toTheHomePage() { 
+            window.location.href = 'GoodProducts.html';
+        }
+    
+    </script>
+    
+</body>
+</html>
